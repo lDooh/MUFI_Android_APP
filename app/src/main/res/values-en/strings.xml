@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Map</string>
+    <string name="menu_photo">Photo</string>
+    <string name="menu_card">Card</string>
+    <string name="menu_setting">Setting</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="exit">Exit</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="success">Successs</string>
+    <string name="failed">Failed</string>
+    <string name="delete">Delete</string>
+
+    <string name="normal">Normal</string>
+    <string name="account">Account</string>
+    <string name="app_setting">App Settings</string>
+    <string name="information_terms">App Information And Terms of Services</string>
+    <string name="notice">Notice</string>
+    <string name="event">Event</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="feedback_history">Feedback History</string>
+    <string name="coupon">Coupon</string>
+    <string name="my_info">My Information</string>
+    <string name="change_password">Change Password</string>
+    <string name="logout">Logout</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="notification_setting">Notification Settings</string>
+    <string name="delete_thumbnail">Delete Thumbnail</string>
+    <string name="app_version">App Version</string>
+    <string name="business_information">Business Information</string>
+    <string name="terms_of_service">Terms Of Services</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="electric_financial_transactions_terms">Electric Financial Transactions Terms</string>
+    <string name="open_source_license">Open Source Licenses</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="home_fragment_label">Home Fragment</string>
+    <string name="photo_fragment_label">Photo Fragment</string>
+
+    <string name="scan_qr">Scan QR-Code</string>
+    <string name="add_card">카드 등록하기</string>
+    <string name="kakao_button">Login with KAKAO TALK</string>
+    <string name="id">ID</string>
+    <string name="pw">Password</string>
+    <string name="login">Login</string>
+    <string name="find_id">Find ID</string>
+    <string name="find_pw">Find Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="user_name">Name</string>
+    <string name="call_number">Phone Number</string>
+    <string name="birthday">Birthday</string>
+    <string name="birthday_six">birth day</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="card_number">Card Number</string>
+    <string name="expiration_date">Expiration Date</string>
+    <string name="cvc">CVC Code</string>
+    <string name="cvc_hint">three digits on the back of the card</string>
+    <string name="card_pw_hint">the first two digits of a password</string>
+    <string name="download">Download</string>
+
+    <string name="photo_date">Date of Photography</string>
+    <string name="photo_size">Size</string>
+    <string name="photo_shop_name">Shop</string>
+
+    <string name="input_id">Please enter a valid ID.</string>
+    <string name="input_pw">Please enter a valid Password.</string>
+    <string name="login_error">Invalid ID or Password.</string>
+    <string name="app_exit">Are you sure you want to exit MUFI?</string>
+    <string name="id_validate">The ID can only be 4 to 20 English upper case and numbers.</string>
+    <string name="pw_validate">Please use English, numbers, and special characters for the password.</string>
+    <string name="validate_name">Please enter your name.</string>
+    <string name="validate_call_number">Please enter your phone number.</string>
+    <string name="validate_birth">Please enter your birthday.</string>
+    <string name="validate_birth_six">Enter 6 digits of birth date</string>
+    <string name="validate_gender">Please select a gender.</string>
+    <string name="cancel_sign_up">Are you sure you want to cancel your membership?</string>
+    <string name="duplicate_id">ID already in use.</string>
+    <string name="able_id">Available ID.</string>
+    <string name="sign_up_success">Membership registration was successful.</string>
+    <string name="sign_up_failed">Membership registration failed.</string>
+
+    <string name="cancel_add_card">Are you sure you want to unregister your card?</string>
+    <string name="canceled_add_card">Your card registration has been canceled.</string>
+    <string name="success_add_card">Your card has been registered.</string>
+    <string name="failed_add_card">Card registration failed.</string>
+    <string name="validate_card_number">Please enter a valid card number.</string>
+    <string name="validate_card_ex">Please enter a valid card expiration date.</string>
+    <string name="validate_card_cvc">Please enter a valid CVC number.</string>
+    <string name="validate_card_pw">Please enter the first two digits of your card password.</string>
+
+    <string name="sure_delete_photo">Are you sure you want to delete the picture?</string>
+
+    <string name="nav_header_title">MUFI</string>
+    <string name="nav_header_subtitle">mufi@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="hello_home_fragment">Hello home fragment</string>
+    <string name="hello_photo_fragment">Hello photo fragment. Arg: %1$s</string>
+</resources>

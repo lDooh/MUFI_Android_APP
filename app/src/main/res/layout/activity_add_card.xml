@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.AddCardActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/card_number"
+        android:textSize="30sp"
+        android:layout_margin="15dp"
+        />
+
+    <!-- 카드 번호 입력 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+        <EditText
+            android:id="@+id/card1"
+            android:maxLength="4"
+            android:inputType="number"
+            android:textColor="@color/black"
+            style="@style/CardEditText" />
+
+        <EditText
+            android:id="@+id/card2"
+            android:maxLength="4"
+            android:inputType="number"
+            android:textColor="@color/black"
+            style="@style/CardEditText" />
+
+        <EditText
+            android:id="@+id/card3"
+            android:maxLength="4"
+            android:inputType="number"
+            android:textColor="@color/black"
+            style="@style/CardEditText" />
+
+        <EditText
+            android:id="@+id/card4"
+            android:maxLength="4"
+            android:inputType="numberPassword"
+            android:textColor="@color/black"
+            style="@style/CardEditText" />
+    </LinearLayout>
+
+    <!-- 카드 유효기간 입력 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal" >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="유효기간(월)"
+                android:textSize="30sp"
+                android:layout_margin="15dp"
+                />
+            <EditText
+                android:id="@+id/card_ex_mm"
+                android:hint="mm"
+                android:maxLength="2"
+                android:inputType="number"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                style="@style/CardEditText" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="유효기간(년)"
+                android:textSize="30sp"
+                android:layout_margin="15dp" />
+            <EditText
+                android:id="@+id/card_ex_yy"
+                android:hint="yy"
+                android:maxLength="2"
+                android:inputType="number"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                style="@style/CardEditText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/birthday_six"
+        android:textSize="30sp"
+        android:layout_margin="15dp"/>
+    <EditText
+        android:id="@+id/card_birthday"
+        android:maxLength="6"
+        android:hint="@string/validate_birth_six"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        style="@style/CardEditText2" />
+
+    <Button
+        android:id="@+id/request_add_card_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_card"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"/>
+
+</LinearLayout>

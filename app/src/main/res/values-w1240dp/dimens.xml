@@ -1,0 +1,3 @@
+<resources>
+    <dimen name="scan_qr_margin">200dp</dimen>
+</resources>
